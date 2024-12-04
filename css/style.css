@@ -1,0 +1,128 @@
+/* General Styles */
+:root {
+  --blue: #2980b9;
+  --dark-blue: #2c3e50;
+  --gray: #7f8c8d;
+  --green: #27ae60;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+h4, h5, h6 {
+  color: var(--dark-blue); /* Dark Blue */
+}
+
+.container {
+  margin-top: 20px;
+}
+
+/* Navbar Styles */
+nav {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.brand-logo {
+  font-size: 1.8rem;
+}
+
+/* User Section */
+#user-section {
+  margin: 20px 0;
+}
+
+/* Card Styles */
+.card {
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card-title {
+  color: var(--blue);
+}
+
+/* Center the text in the card */
+.card-content {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  height: 100%; /* Ensure it takes full height */
+}
+
+/* Input Field Styles */
+.input-field input {
+  border-bottom: 1px solid var(--blue);
+}
+
+.input-field input:focus {
+  border-bottom: 2px solid var(--blue);
+  box-shadow: none;
+}
+
+.input-field label {
+  color: var(--gray); /* Gray */
+}
+
+.input-field label.active {
+  color: var(--blue);
+}
+
+/* Button Styles */
+.btn {
+  transition: background-color 0.3s;
+  margin-left: 10px; /* Add some space between meal text and button */
+}
+
+.btn.blue {
+  background-color: var(--blue);
+}
+
+
+/* Summary Styles */
+.collection-item {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space between meal info and button */
+  align-items: center; /* Align items vertically */
+  padding: 10px; /* Add some padding */
+  border-bottom: 1px solid #ccc; /* Add a bottom border for separation */
+}
+
+.btn.red {
+  background-color: red; /* Red background for delete button */
+  color: white; /* White text color */
+  border: none; /* Remove border */
+  padding: 5px 10px; /* Add padding to button */
+  cursor: pointer; /* Change cursor on hover */
+}
+
+
+/* Progress Bar */
+.progress {
+  margin: 10px 0;
+}
+
+.determinate {
+  background-color: var(--green); /* Green */
+}
+
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  h4 {
+      font-size: 1.5rem;
+  }
+
+  .card {
+      margin-bottom: 20px;
+  }
+}

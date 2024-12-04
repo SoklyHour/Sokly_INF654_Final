@@ -1,0 +1,60 @@
+{
+    "name": "Micro Tracker",
+    "short_name": "MicroTracker",
+    "description": "A web app for tracking micro-nutrients and health data.",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#2196F3",
+    "scope": "./",
+    "icons": [
+        {
+            "src": "img/icons/mylogo-16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        },
+        {
+            "src": "img/icons/mylogo-32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "img/icons/mylogo-150.png",
+            "sizes": "150x150",
+            "type": "image/png"
+        },
+        {
+            "src": "img/icons/mylogo-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "img/icons/mylogo.png",
+            "sizes": "500x500",
+            "type": "image/png"
+        },
+        {
+            "src": "img/icons/mylogo-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "/img/screenshots/Screenshot1.png",
+            "type": "image/png",
+            "sizes": "2880x1624",
+            "form_factor": "wide"
+        },
+        {
+            "src": "/img/screenshots/Screenshot2.png",
+            "type": "image/png",
+            "sizes": "884x1191",
+            "form_factor": "narrow"
+        }
+    ],
+    "dir": "ltr",
+    "lang": "en-US",
+    "orientation": "any",
+    "prefer_related_applications": false
+}
